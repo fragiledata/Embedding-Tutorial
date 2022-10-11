@@ -9,12 +9,13 @@
       type="text/javascript"
       src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
     ></script>
-    <!-- Link to Skeleton Style Sheet which makes it look nicer
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" /> -->
-    <link rel="stylesheet" href="./style.css">
+    <!--Link to Skeleton Style Sheet which makes it look nicer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+
+    <!-- <link rel="stylesheet" href="./style.css">-->
   </head>
   <body>
-    <h2>Index for Back to School Embedding Project ✨✨</h2>
+    <h2>Back to School Embedding Project ✨✨</h2>
     <div>
         <button id="showViz">Show Viz</button>
         <button id="hideViz">Hide Viz</button>
@@ -22,8 +23,13 @@
         <button id="exportPPT">Export PPT</button>
     </div>
     <hr />
+      <h2>filters</h2>
+      <input type="number" placeholder="Min Value" id="minValue" />
+      <input type="number" placeholder="Max Value" id="maxValue" />
+      <button id="filterButton">Filter!</button>
     <!--  -->
 <divid= "vizContainer"></div>
     <script src="./app.js"></script>
   </body>
 </html>
+<!--  -->
